@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*Medidas absolutas:
+            cm, mm, in, px, (pt, pc) - n recomendado.
+            
+            Medidas Relativas:
+            em, ex, rem, vw, vh, %
+
+            16px geralmente é = 1em
+
+            A W3C RECOMENDA O USO DE EM E PX.
+            */
+            
+            font-size: 1em;
+            /*lighter, normal, bold, bolder
+            100 - 900*/
+        }
+        h1 {
+            /*shorthand font
+        
+            -font-style -> font-weight -> font-size -> font-family*         font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'times new roman'
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro tempore aliquid repudiandae architecto, hic iure facere praesentium ex eum explicabo voluptas, cumque laboriosam? Id possimus nulla ut nihil necessitatibus facere. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam eveniet accusantium nemo adipisci, quasi nobis expedita nulla culpa reiciendis quidem molestiae. Quos enim sit quasi voluptatum corrupti laborum ducimus numquam.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat corrupti quae iste reiciendis voluptatibus voluptatem repellendus natus non, eum accusantium officia quas dignissimos rerum est laborum. Unde quos odit a.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ea recusandae. Id, amet cupiditate repellendus debitis, dolore magni ab odio tempore similique doloribus hic perferendis magnam consequatur a fugit soluta!</p>
+
+</body>
+</html>

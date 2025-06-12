@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Categorias do Café</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Adicionar Nova Categoria de Café</h2>
+        <form id="add-category-form">
+            <label for="category-name">Nome da Categoria:</label>
+            <input type="text" id="category-name" name="category-name" required>
+            
+            <label for="category-description">Descrição:</label>
+            <textarea id="category-description" name="category-description"></textarea>
+            
+            <button type="submit">Adicionar Categoria</button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
